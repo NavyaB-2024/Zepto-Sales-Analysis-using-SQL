@@ -4,8 +4,10 @@ Project Overview:
 This project is based on a sample dataset inspired by Zepto (online grocery delivery app).  
 The goal was to perform  “data exploration, cleaning, and analysis”  using SQL to understand product pricing, discounts, inventory, and revenue estimation.  
 
+
 Tech Stack:
 - SQL (PostgreSQL / MySQL compatible)
+
   
 Dataset Overview:
 The dataset is inspired by Zepto’s online grocery platform and mimics a real-world e-commerce inventory system.
@@ -22,6 +24,7 @@ Columns:
 8.	weightInGms → Product weight in grams
 9.	outOfStock → Boolean flag (TRUE = product unavailable)
 10.	quantity → Quantity purchased/ordered
+
 
 Project Workflow:
 1. Data Exploration
@@ -45,6 +48,7 @@ Project Workflow:
 6. Price per gram for products above 100g (value-for-money check).  
 7. Categorized products into Low, Medium, Bulk   based on weight.  
 8. Total inventory weight per category(supply chain planning).  
+
 
 Insights:
 - Some high-MRP products were out of stock, showing demand-supply gaps.  
